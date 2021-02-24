@@ -1,0 +1,60 @@
+/*tablet mode*/
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .full_website{
+        width:100%;
+        background:red;
+    }
+     
+}
+/*mobile responsive*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .full_website{
+        width: 98%;
+        background: blueviolet;
+    }
+    .content{
+        width: 98%;
+    }
+    .right_sidebar{
+        width: 97%;
+        padding-bottom: 35px;
+        margin-top: 25px;
+    }
+    .fifth_room{
+        padding: 45px 5px;
+    }
+    .box ul li a{
+        font-size: 15px;
+
+    }
+    .sidebar_element a{
+        font-size: 15px;
+    }
+}
+
+/*small phone*/
+@media only screen and (min-width:200px) and (max-width:479px){
+    .full_website{
+        width: 98%;
+        background: rgb(190, 103, 44);
+    }
+    .content{
+        width: 98%;
+    }
+    .right_sidebar{
+        width: 97%;
+        padding-bottom: 35px;
+        margin-top: 25px;
+    }
+    .fifth_room{
+        padding: 45px 5px;
+    }
+    .box ul li a{
+        font-size: 15px;
+
+    }
+    .sidebar_element a{
+        font-size: 15px;
+    }
+}

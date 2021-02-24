@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.full_website{
+
+    width: 1000px;
+    border: 2px solid lightgreen;
+    height:auto;
+    margin-bottom: 20px;
+}
+.first_room{
+
+    background: powderblue;
+    height: 50px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.logo{
+    width:40%;
+    float: left;
+    padding: 10px 15px;
+    color: darksalmon;
+}
+.banner{
+    width: 50%;
+    float: right;
+}
+.second_room{
+
+    background: pink;
+    
+}
+.menu ul{
+    height: 50px;
+
+}
+.menu ul li{
+display: inline-block;
+padding: 10px 0px ;
+}
+.menu ul li a{
+
+    color:lightseagreen;
+    text-decoration: none;
+    padding: 10px 15px;
+     
+
+}
+.menu ul li a:hover{
+    color:rgb(216, 75, 157);
+}
+.third_room{
+
+    background: rgb(111, 177, 221);
+    width: 100%;
+    height: auto;
+}
+.slider h2{
+
+    color:darkslategray;
+    padding-top: 100px;
+    text-align: center;
+}
+.fourth_room{
+    height: 430px;
+}
+.content{
+    background: plum;
+    width: 60%;
+    float:left;
+    height:420px;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.content img{
+    float:right;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(55, 182, 144);
+    background: rgb(241, 238, 57);
+    padding: 4px 4px;
+}
+.content p{
+    font-size: 16px;
+    text-align: justify;
+}
+.readmore{
+    text-decoration: none;
+    border: 2px solid rgb(143, 135, 135);
+    border-radius: 8px;
+    padding:3px;
+    background: brown;
+}
+.right_sidebar{
+     background:rgb(173, 144, 235);
+        width: 36%;
+        float:  right;
+        height: 410px;
+        padding-top: 25px;
+        padding-left: 20px;
+}
+.rightsidelement h2{
+    color: chartreuse;
+    background: goldenrod;
+    border-bottom: 2px solid rgb(235, 105, 105);
+    width: 70%;
+    padding-left: 6px;
+     margin-left: -15px;
+
+
+    
+}.rightsidelement ul li{
+
+    padding: 5px 0px;
+    
+}.rightsidelement ul li a{
+    text-decoration: none;
+    color: black; 
+}
+.rightsidelement ul li a:hover{
+    color: rgb(212, 24, 118);
+    text-decoration: rgb(5, 181, 235) underline;
+ 
+}
+.fifthroom{
+
+    clear: right;
+    background-color: lightsteelblue;
+    height: auto;
+    display: flex;
+    padding: 40px 25px;
+    justify-content: space-between;
+}
+.box h2{
+
+    color: rgb(25, 158, 175);
+    border-bottom: 2px solid rgb(210, 238, 144);
+    width: 70%;
+}
+.box ul{
+    padding: 5px 25px;
+}
+.box ul li{
+
+    padding: 7px 15px;
+}
+.box ul li a {
+    color:black;
+    font-size: 18px;
+
+}
+.box ul li a:hover{
+    text-decoration: none;
+
+ color: magenta;
+}
+.sixthroom{
+
+    background:black;
+    text-align: center;
+}
+.sixthroom h4{
+    color: cadetblue;
+}
+/* blog page er jonne */
+.blogroom{
+    width: 80%;
+    background: lightcoral;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    border:2px double midnightblue;
+    border-radius: 14px;
+    font-size: 20px;
+
+}
+
+.blogroom h2{
+    margin-bottom: 40px;
+  margin: 0 auto;
+ color: lightgreen;
+ border:1px solid lightsteelblue;
+ width: 250px;
+ background: mediumpurple;
+ padding: 7px 10px;
+ border-radius: 20px;
+}
+ 
+.form{
+     
+    width: 31%;
+    margin: 0 auto;
+    border: 2px solid rgb(196, 184, 194);
+    padding: 20px 35px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+input{
+    width: 100%;
+    background: rgb(123, 224, 211);
+    padding: 5px 2px;
+    border: 2px solid gray;
+    border-radius: 35px;
+}
+textarea{
+    width: 100%;
+    background: rgb(123, 224, 211);
+    padding: 5px 2px;
+    border: 2px solid rgb(231, 156, 156);
+    border-radius: 35px;
+
+
+}
+.button{
+    font-size: 18px;
+}
+.button:hover{
+    background: rgb(211, 101, 156);
+}
